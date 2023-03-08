@@ -11,10 +11,10 @@ namespace WinFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.label.Text = "sad";
+            this.label.Text = "Win form";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        protected void button1_Click(object sender, EventArgs e)
         {
             this.label.Text = "Hello world!";
         }
