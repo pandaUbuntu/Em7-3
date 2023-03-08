@@ -5,9 +5,11 @@ namespace WinFormsApp2
         public Form1()
         {
             InitializeComponent();
-            
-
         }
+		
+		public showMessage(){
+			Console.WriteLine("Hello!!!!");
+		}
 
         private void Form1_Load(object sender, EventArgs e)
         {
