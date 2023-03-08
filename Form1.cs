@@ -1,6 +1,6 @@
 namespace WinFormsApp2
 {
-    public partial class Form1 : Form
+    public partial class Form1 : FormPattern
     {
         public Form1()
         {
@@ -18,7 +18,7 @@ namespace WinFormsApp2
 
         protected void button1_Click(object sender, EventArgs e)
         {
-            this.label.Text = "Hello world!";
+            this.label.Text = "Blah blah blah!";
         }
     }
 }
